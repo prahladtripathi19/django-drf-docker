@@ -18,3 +18,6 @@ This will create a docker image and named the tag projectname-app:latest
 Step-5: Create django project
 docker-compose run app sh -c "django-admin startproject app ."
 
+Step-6: run test case
+docker-compose run app sh -c "python manage.py test"
+
