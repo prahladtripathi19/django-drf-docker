@@ -21,3 +21,6 @@ docker-compose run app sh -c "django-admin startproject app ."
 Step-6: run test case
 docker-compose run app sh -c "python manage.py test"
 
+Step-7: clear container and 
+docker-compose run --rm app sh -c "python manage.py startapp user"
+
